@@ -1,19 +1,19 @@
+
 body {
-    margin: 0 10%;
-    padding: 5% 20%;
     background: #ccc;
     position: relative;
     overflow: hidden;
 }
-
+.body-box{
+    position: relative;
+}
 .box {
     width: 50%;
-    height: 50%;
     position: absolute;
-    top: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     text-align: center;
     color: #9a5320;
 }
@@ -51,14 +51,14 @@ span {
 
 .icon2 {
     position: absolute;
-    top: 125%;
+    top: 135px;
     right: 10%;
 }
 
 .icon {
     transform: rotate(-180deg);
     position: absolute;
-    top: 125%;
+    top: 135px;
     left: 10%;
 }
 
@@ -84,8 +84,7 @@ span {
 #div-radio {
     width: 100%;
     position: absolute;
-    top: 212%;
-    left: 1%;
+    top: 320px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
